@@ -1,0 +1,9 @@
+main: com.mindfulprotons.tpod.main.PluginMain
+name: Jarate
+version: 0.01
+
+commands:
+   givejarate:
+      description: Gives you Jarate to throw on fools!
+      usage: /givejarate
+      permission: mindfulprotons.tpod.givejarate

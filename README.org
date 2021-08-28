@@ -1,0 +1,9 @@
+#+TITLE: The Jarate Plugin
+
+* The plugin everyone needed!
+  This is a plugin designed for people who, for some reason, want TF2's
+  [[https://wiki.teamfortress.com/wiki/Jarate][Jarate]], recreated in Minecraft. Well, at least, in the future. This is
+  still in development.
+
+  To compile, run ~mvn install~, or any other preferred way you have to
+  compile a Maven project.

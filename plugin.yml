@@ -1,9 +1,12 @@
-main: com.mindfulprotons.tpod.main.PluginMain
+main: com.mindfulprotons.jarate.main.PluginMain
 name: Jarate
-version: 0.01
+version: 0.0.1
+description: Adds an item inspired by TF2's "Jarate".
+api-version: 1.17
+author: mindfulprotons@outlook.com
 
 commands:
    givejarate:
       description: Gives you Jarate to throw on fools!
       usage: /givejarate
-      permission: mindfulprotons.tpod.givejarate
+      permission: mindfulprotons.jarate.givejarate

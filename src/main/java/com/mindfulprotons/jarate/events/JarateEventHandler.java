@@ -34,7 +34,7 @@ public class JarateEventHandler implements Listener {
     public void onPotionSplash(PotionSplashEvent e) {
 	ItemStack unknownPotionStack = e.getPotion().getItem();
 	ItemStack jarateStack = CommandGiveJarate.getJarateItemStack();
-	if (unknownPotionStack.getLore() != null && unknownPotionStack.getLore().get(0).equals(jarateStack.getLore().get(0)))
+	if (unknownPotionStack.getItemMeta().hasLore() && unknownPotionStack.getLore().get(0).equals(jarateStack.getLore().get(0)))
 	    {
 		for (LivingEntity ent : e.getAffectedEntities())
 		    {
